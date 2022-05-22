@@ -1,8 +1,8 @@
 .place {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-column-gap: 40px;
-  grid-row-gap: 48px;
+  column-gap: 40px;
+  row-gap: 48px;
   margin-bottom: 80px;
 }
 .place:last-child {
@@ -11,26 +11,27 @@
 
 @media screen and (max-width: 1024px) {
   .place {
-    grid-column-gap: 32px;
+    column-gap: 32px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .place {
-    grid-column-gap: 28px;
+    column-gap: 28px;
     margin-bottom: 73px;
   }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 550px) {
   .place {
     grid-template-columns: 1fr;
-    grid-row-gap: 36px;
+    row-gap: 36px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .place {
-    grid-row-gap: 32px;
+    row-gap: 32px;
+    margin-bottom: 50px;
   }
 }
