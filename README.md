@@ -11,3 +11,4 @@
 - Animation
 
 Ссылка на GitHub Pages:
+https://mikzin.github.io/russian-travel/index.html
